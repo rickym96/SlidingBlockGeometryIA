@@ -16,6 +16,7 @@ public class TestComponentAt extends JPanel {
    protected static final Color SELECTION_COLOR = Color.red;
    private JPanel selectedPanel = null;
    private Color originalColor = null;
+   
 
    public TestComponentAt() {
       setLayout(new GridLayout(ROW_COUNT, ROW_COUNT, 1, 1));
